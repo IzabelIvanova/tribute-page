@@ -1,0 +1,186 @@
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.frame {
+  border-top: 30px solid white;
+  border-bottom: 30px solid white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+  background-color: #f6ebdf;
+}
+
+header{
+  text-align:center;
+  background-color: #EDD7BF;
+  margin-bottom: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.title{
+  color: #202622;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+ 
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 420;
+  font-style: normal;
+  font-size: 20px;
+}
+
+img{
+  display: block;
+  width: 47%;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+  margin: 0 auto;
+}
+
+figcaption {
+  margin-top: 8px; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  width: 100%; 
+}
+
+.text-center{
+  text-indent: 50px;
+  font-size: 20px;
+  text-align: justify;
+
+}
+
+.timeline-group{
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.h2-lines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px; 
+  text-align: center;
+  margin-top: 30px;
+}
+
+.h2-lines::before, .h2-lines::after {
+  content: '';
+  flex-grow: 1;
+  height: 1px;
+  background-color: silver;
+}
+
+.h2-lines::before {
+  margin-right: 1rem; 
+}
+
+.h2-lines::after {
+  margin-left: 1rem; 
+}
+
+.timeline-group ul, .quote {
+  max-width: 47%;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box; 
+  margin: 0 auto;
+}
+
+.timeline-group ul li:not(:last-of-type){
+  padding-bottom: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 40px; 
+  justify-content: center;
+}
+
+.gallery img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.analytical-engine-img{
+    max-width: 400px;
+}
+
+.sketches-img{
+    max-width: 800px;
+}
+
+.portrait-img{
+    max-width: 300px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  flex-basis: 30%; 
+  text-align: center;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
+.quote {
+  padding: 20px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.section {
+  padding-bottom: 20px;
+    margin-left: 10%;
+  margin-right: 10%;
+}
+
+a:hover {
+    color: #271B15;
+}
+
+a {
+  color: #397B9C;
+  margin-bottom: 10px;
+}
+
+.links {
+  text-align:center;
+  background-color: #EDD7BF;
+  margin: 0;
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+
+h3{
+  margin-top: 0;
+}
+
+hr{
+  border: none;
+  margin-top: 0px; margin-bottom: 6px; }
+
